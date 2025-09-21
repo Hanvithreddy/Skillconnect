@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse Jobs - SkillConnect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">SkillConnect</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="post-job.html">Post a Job</a>
+      <a href="browse-job.html" class="active">Browse Jobs</a>
+    </nav>
+  </header>
+
+  <section class="browse-section">
+    <h2>Browse Jobs</h2>
+
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search by job title, company, or location...">
+      <button onclick="searchJobs()">Search</button>
+    </div>
+
+    <div class="job-list" id="jobList">
+      <div class="job-card">
+        <h3>Frontend Developer</h3>
+        <p><strong>Company:</strong> TechWorld</p>
+        <p><strong>Location:</strong> Remote</p>
+        <p>Build modern UI components using React and TailwindCSS.</p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+
+      <div class="job-card">
+        <h3>Data Analyst</h3>
+        <p><strong>Company:</strong> DataCorp</p>
+        <p><strong>Location:</strong> Bangalore</p>
+        <p>Analyze business data and create insights using Python.</p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+
+      <div class="job-card">
+        <h3>Backend Engineer</h3>
+        <p><strong>Company:</strong> CloudWorks</p>
+        <p><strong>Location:</strong> Hyderabad</p>
+        <p>Develop REST APIs with Flask and manage databases.</p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 SkillConnect. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post a Job - SkillConnect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">SkillConnect</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="post-job.html" class="active">Post a Job</a>
+      <a href="browse-job.html">Browse Jobs</a>
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <h2>Post a Job</h2>
+    <form class="job-form">
+      <input type="text" id="job-title" placeholder="Job Title" required>
+      <input type="text" id="company" placeholder="Company" required>
+      <input type="text" id="location" placeholder="Location" required>
+      <textarea id="description" placeholder="Job Description" rows="5" required></textarea>
+      <button type="submit" class="btn">Post Job</button>
+    </form>
+    <p id="response-message"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 SkillConnect. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
